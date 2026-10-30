@@ -1,0 +1,71 @@
+<!-- Nouran Abd Elrahman Mostafa Amayem- Student ID: [225108548] -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <span class="site-name">Nouran Abd Elrahman</span>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#cards-section">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- قسم الصورة والنبذة -->
+        <section id="about" class="profile-section">
+            <img src="images/me.jpeg" alt="Personal photo of Nouran Abd Elrahman" class="profile">
+            <h1>Nouran Abd Elrahman</h1>
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </section>
+
+        <!-- البطاقات الثلاث -->
+        <section id="cards-section" class="cards-container">
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Passionate about C#, JavaScript, and Python development, building structured applications and data solutions.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Creating responsive layouts and clean user interfaces using modern HTML, CSS, and DOM interactions.</p>
+            </div>
+            <div class="card">
+                <h3>Problem Solving</h3>
+                <p>Enjoy analyzing technical challenges, debugging code systematically, and designing efficient logic.</p>
+            </div>
+        </section>
+
+        <!-- نموذج التواصل (Form) -->
+        <section id="contact" class="form-section">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nouran Abd Elrahman. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
